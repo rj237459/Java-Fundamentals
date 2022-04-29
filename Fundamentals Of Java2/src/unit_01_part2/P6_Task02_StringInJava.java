@@ -36,7 +36,7 @@ class StringInJava {
 		String second = "Nainwal";
 		
 		//Add two stings
-		String third = first + second;
+		String third = first+" "+ second;
 		System.out.println(third);
 		
 		//compare two strings
@@ -44,11 +44,11 @@ class StringInJava {
 		System.out.println(result1);
 		
 		/*
-		 * Java Strings are Immutable
-		 * In Java, the VM maintains a string pool to store all of its strings inside the memory.
+		 * Java Strings are Immutable sequence of characters.
+		 * In Java, the VM(virtual machine) maintains a string pool to store all of its strings inside the memory.
 		 * The string pool helps in reusing the strings
 		 * 	-If the string already exists, the new string is not created.
-		 * 	 Instead, the new reference,example points to the already existed string (Java).
+		 * 	 Instead, the new reference points to the already existed string (Java).
 		 * 	-If the string doesn't exist,the new string is created.
 		 * 
 		 */
@@ -82,8 +82,9 @@ class StringInJava {
 		ch[0] = 'h';
 		//s1.charAt(0) ='h';
 		/*
-		 * Join two Java Strings - +' can be used to appended strings together to form a new string - but not possible in char array
-		 * 
+		 * Join two Java Strings - 
+		 * '+' can be used to appended strings together to form a new string 
+		 * but not possible in char array
 		 */
 		
 		s1 = s1 + 'a'; //s1 is new object with new memory

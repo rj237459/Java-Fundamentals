@@ -3,10 +3,11 @@ package unit_01;
  *  Constants 
  *  	Piece of code/data that does not change its value
  *  	they never change the value once assigned
- *  private: INSIDE CLASS ONLY
- *  protected:CLASS + WITHIN THE PACKAGE
- *  public:CLASS + WITHIN THE PACKAGE +OUTSIDE THE PACKAGE
- *  Default:No Keyword ,Package private{ Not Outside the package }
+ *  Access modifiers:-
+ *  	private: INSIDE CLASS ONLY
+ *  	protected:CLASS + WITHIN THE PACKAGE
+ *  	public:CLASS + WITHIN THE PACKAGE +OUTSIDE THE PACKAGE
+ *  	Default:No Keyword ,Package private{ Not Outside the package }
  */
 public class P2_Task02_ConstantsInJava {
 	    private static final double pi = 3.14; /*private:- access specifier,static is used so that we can 

@@ -41,7 +41,7 @@ public class P6_Task01_ArraysInJava {
 		array1 = new int[6]; //{1,2,3,4};
 		
 		//Assigning values to the Java array
-		for(int i = 0;i < array1.length;i++)//length is the property of array
+		for(int i = 0;i < array1.length;i++)//length is the property of array. It is diffrent from length method in string. 
 			array1[i] = i;
 		
 		int array4[] = { 33, 3, 4, 5}; //declaration, instantiation and initialization
@@ -56,7 +56,8 @@ public class P6_Task01_ArraysInJava {
 		int[] array5 = arrayAsReturnType();
 		System.out.println(array5.toString());
 		
-		//ArrayIndexOutOfBoundsException
+		//ArrayIndexOutOfBoundsException: 
+		//when an array tries to access element out of its size or at a negative index it is called array out of bound exception.
 		int arr[] = { 50, 60, 70, 80 };
 		for(int i = 0; i<=arr.length; i++) {
 			System.out.println(arr[i]);

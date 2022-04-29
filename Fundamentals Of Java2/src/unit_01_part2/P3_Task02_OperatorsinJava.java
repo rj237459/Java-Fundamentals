@@ -1,7 +1,7 @@
 package unit_01_part2;
 
 /*
-Operators inJava is a symbol that is used to perform operations.
+Operators in Java is a symbol that is used to perform operations.
 sum=a+b;
 
 	For example +,*,-,/,etc ;
@@ -81,6 +81,9 @@ class OperatorsInJava {
 		  0,0,1,0,0,0(8<<1)
 		  0,1,0,0,0,0(16<<1)
 		  1,0,0,0,0,0(32)
+		  left shift(<<)means multiply.
+		  right shift(>>)means divide.
+		  must see upper test values how it works.
 		 */
 		System.out.println(10<<2);//40
 		System.out.println(10<<3);//80
@@ -88,8 +91,8 @@ class OperatorsInJava {
 		System.out.println(15<<4);//240
 		
 		System.out.println(10>>2);//2
-		System.out.println(20>>3);//5
-		System.out.println(20>>2);//2
+		System.out.println(20>>3);//2
+		System.out.println(20>>2);//5
 		System.out.println("\n");
 	}
 	void RelationalOperator()
@@ -107,6 +110,7 @@ class OperatorsInJava {
 		System.out.println("\n");
 	}
 	//Bitwise :Second condition is also checked which is not the case in Logical
+	// in case of bitwise OR( | ) if one of the condition is true then the value of operand on which the comparision is done is increased by 1. 
 	void BitwiseAndLogicalOperator()
 	{
 		System.out.println("Inside BitwiseOperator");
@@ -114,18 +118,18 @@ class OperatorsInJava {
 		int b=5;
 		int c=20;
 		//Logical && and Bitwise &
-		System.out.println(a<b &&a++<c);// false && true= false
+		System.out.println(a<b&&a++<c);// false && true= false
 		System.out.println(a);//10 because second condt. is not checked
 		System.out.println(a<b & a++<c);//false & true =false 
 		System.out.println(a);//11 because second condt. is also checked
 		//Logical || and Bitwise |
-		System.out.println(a>b||a<c);// true || true= true
+		System.out.println(a>c || a<c);// true || true= true
 		System.out.println(a>b | a<c);//true | true= true 
 		System.out.println(a);//11 because second condt. is also checked
 		System.out.println(a>b ||a++<c);// true && true= true
 		System.out.println(a);//10 because second condt. is not checked
 		System.out.println(a>b | a++<c);//true | true= true 
-		System.out.println(a);//11 because second condt. is also checked
+		System.out.println(a);//12 because second condt. is also checked
 	
 		/*
 		 Exclusive and Inclusive OR{! and ^}

@@ -38,16 +38,21 @@ class Statements
 		{
 			System.out.println("x+y is greater than 10");
 		}
-		int num=2;
+		
+		int num=0;
 		switch(num)
 		{
 		case 0:
 			System.out.println("number is 0");
+			break;
 		case 1:
 			System.out.println("number is 2");
+			break;
 		default:
 			System.out.println(num);
 		}
+		// Note : 
+		// In case if you have forgot to put break in b/w switch case statements and default value came then only default value case is executed. 
 	}
 	void LoopStatements()
 	{

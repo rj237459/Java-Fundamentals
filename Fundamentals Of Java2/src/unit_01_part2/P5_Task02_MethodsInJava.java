@@ -15,7 +15,7 @@ public class P5_Task02_MethodsInJava {
 
 class ABC3 {
 	
-	static int a = 10;
+	static int a = 11;
 	
 	/*Actual method definition
 	 * Datatype methodName(DataType2 p1, DataType2 p2){

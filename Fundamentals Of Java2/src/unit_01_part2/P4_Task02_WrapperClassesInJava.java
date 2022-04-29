@@ -1,7 +1,7 @@
 package unit_01_part2;
 
 /*
- * The wrapper class in java provides the mechanism to convert primitive into object and obj
+ * The wrapper class in java provides the mechanism to convert primitive data types into object and obj
  * Why?
  * Because we want to use predefined methods of those objects
  * - boolean data types -> Boolean obj; -> obj.toString();
@@ -19,7 +19,7 @@ public class P4_Task02_WrapperClassesInJava {
 				Integer i = Integer.valueOf(a);// converting int into Integer explicitly
 				Integer j = a; //autoboxing, now compiler will write Integer.valueOf(a) internally
 				
-				System.out.println(a + "" + i + "" + j);
+				System.out.println(a + " " + i + " " + j);
 				
 				System.out.println(i.toString());
 				
@@ -35,7 +35,7 @@ public class P4_Task02_WrapperClassesInJava {
 				byte bytevalue=byteobj;
 				System.out.println(bytevalue);
 
-
+ 
 	}
 
 }
