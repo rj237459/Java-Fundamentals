@@ -20,7 +20,7 @@ public class P8_String {
 		String s2 = new String("7545a");
 
 		obj.palindromeOrNot(s1);
-		obj.reverseOfAString(s1);
+		obj.reverseOfAString(s2);
 		obj.stringEqualOrNot(s1, s2);
 
 	}
@@ -53,10 +53,11 @@ class QuestionsOnString {
 		// Write Logic Here!
 		String nstr="";
 		char ch;
-		for (int i=0; i<s.length(); i++)
+		for (int i=s.length()-1; i>=0; i--)
 	      {
 	        ch= s.charAt(i); //extracts each character
-	        nstr= ch+nstr; //adds each character in front of the existing string
+	        System.out.println(ch);// To check string is reversing properly or not.
+	        nstr= nstr+ch; //adds each character in front of the existing string
 	      }
 	      System.out.println("Reversed word: "+ nstr);
 
