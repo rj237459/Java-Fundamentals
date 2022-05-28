@@ -1,7 +1,5 @@
 package Assignment_01;
-
 import java.util.Scanner;
-
 class Employee
 {
 	String Name;
@@ -23,12 +21,8 @@ class Employee
 		this.Salary=s.nextInt();
 		if(this.Salary>=30000) this.Salary=25000;
 	}
-	
-	
 }
-
 public class Q005 {
-
 	public static void main(String[] args) {
 		Employee array[];
 		array=new Employee[8];
@@ -53,14 +47,11 @@ public class Q005 {
 			}
 			else {
 				sumD+=array[i].Salary;
-			}
-				
+			}				
 		}
 		System.out.println("For A: "+Employee.SalA);
 		System.out.println("For B: "+Employee.SalB);
 		System.out.println("For C: "+Employee.SalC);
 		System.out.println("For D: "+Employee.SalD);
-
 	}
-
 }
