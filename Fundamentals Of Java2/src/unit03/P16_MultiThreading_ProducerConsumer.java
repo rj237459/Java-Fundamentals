@@ -19,11 +19,14 @@ public class P16_MultiThreading_ProducerConsumer {
 			this.queue = queue;
 		}
 
+		
+		@SuppressWarnings("deprecation")
 		@Override
 		public void run() {
 			while (true) {
 
 				if (queue.size() == 20) {
+					Thread.currentThread().stop();
 					break;
 				}
 
