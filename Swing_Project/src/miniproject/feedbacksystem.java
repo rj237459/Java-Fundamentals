@@ -91,7 +91,7 @@ class myframe extends JFrame implements ActionListener
 		String s4=(String) day.getSelectedItem()+"/"+(String) month.getSelectedItem()+"/"+(String) year.getSelectedItem();
 		FileWriter myobj=null;
 		try {
-		 myobj=new FileWriter("C:\\Users\\HP\\eclipse-workspace\\Swing_Project\\src\\miniproject\\MINIPROJECT.txt",true);
+		 myobj=new FileWriter("C:\\Users\\HP\\git\\Java-Fundamentals\\Swing_Project\\src\\miniproject\\MINIPROJECT.txt",true);
 		} catch (Exception e1) {
 		
 			e1.printStackTrace();
@@ -122,6 +122,7 @@ class myframe extends JFrame implements ActionListener
 			e3.printStackTrace();
 		}
 		dispose();
+		
 	}
 }
 

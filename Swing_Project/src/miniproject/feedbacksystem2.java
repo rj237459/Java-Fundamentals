@@ -15,7 +15,7 @@ class feedback1 extends JFrame implements ActionListener{
 		
         Container c = getContentPane(); 
         label = new JLabel();
-        label.setIcon(new ImageIcon("C:\\Users\\HP\\eclipse-workspace\\Swing_Project\\src\\miniproject\\feedback.jpg")); 
+        label.setIcon(new ImageIcon("C:\\Users\\HP\\git\\Java-Fundamentals\\Swing_Project\\src\\miniproject\\feedback.jpg")); 
         Dimension size = label.getPreferredSize(); 
         label.setBounds(80, 40, size.width, size.height); 
         
