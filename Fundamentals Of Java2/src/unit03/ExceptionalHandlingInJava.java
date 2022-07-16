@@ -4,7 +4,7 @@ import java.util.*;
 public class ExceptionalHandlingInJava {
 
 	public static void main(String[] args) {
-		//If exception occurs and we do not handle it the it will close the application and rest of the code will not execute.
+		//If exception occurs and we do not handle it then it will close the application and rest of the code will not execute.
 		// only write specific exception first then after write general exception.
 		// otherwise it will raise a compile time error.
 		// error can't be handle because it can't be catched at that time.

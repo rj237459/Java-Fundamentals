@@ -28,7 +28,6 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		float pi;
 		double d;
 		char e;
-		
 		//Valid Initializations
 		pi=3.14f;
 		d=20.22d;
@@ -87,7 +86,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		System.out.println(o);
 		
 		System.out.println(ABC.j);// data + function/method
-		//ABC.display();
+//		ABC.display();
 		
 		ABC obj1=new ABC();
 		System.out.println(obj1.i++);

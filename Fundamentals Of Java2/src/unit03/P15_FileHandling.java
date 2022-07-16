@@ -39,8 +39,8 @@ public class P15_FileHandling {
 
 		ABCDEF obj = new ABCDEF();
 		obj.takeInputFromAFile();
-		// obj.saveOutputIntoAFile();
-		// obj.saveLogOfProgram();
+	    obj.saveOutputIntoAFile();
+		 //obj.saveLogOfProgram();
 
 	}
 
@@ -85,7 +85,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("output.txt");
+			myObj = new FileWriter("C:\\Users\\HP\\git\\Java-Fundamentals\\Fundamentals Of Java2\\src\\unit03\\output.txt");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -111,7 +111,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("log.txt",true);
+			myObj = new FileWriter("C:\\Users\\HP\\git\\Java-Fundamentals\\Fundamentals Of Java2\\src\\unit03\\log.txt",true);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
